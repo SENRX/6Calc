@@ -2,8 +2,9 @@ import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QLineEdit, QHBoxLayout, QVBoxLayout, QPushButton
 from PyQt5.QtWidgets import QMessageBox
 # изменение 
+
 class Calculator(QWidget):
-    def __init__(self):
+    def __init__(f):
         super(Calculator, self).__init__()
 
         self.vbox = QVBoxLayout(self)
