@@ -7,7 +7,7 @@ class Calculator(QWidget):
     def __init__(f):
         super(Calculator, self).__init__()
 
-        self.vbox = QVBoxLayout(self)
+        self.vbox = QVBoxLayout(s1)
         self.hbox_input = QHBoxLayout()
         self.hbox_first = QHBoxLayout()
         self.hbox_second = QHBoxLayout()
